@@ -313,6 +313,27 @@ entries:
     urls:
     - assets/citrix-adc-istio-ingress-gateway/citrix-adc-istio-ingress-gateway-1.2.100.tgz
     version: 1.2.100
+  citrix-cpx-istio-sidecar-injector:
+  - apiVersion: v2
+    appVersion: 1.11.0
+    created: "2021-09-08T18:31:48.262729975+05:30"
+    description: A Helm chart to deploy resources which install Citrix ADC CPX in
+      Istio Service Mesh as sidecar in application pod
+    digest: 414404942e6f3cd740e1c70fb7b7709b00eed229bd66876965aa487782131c85
+    home: https://www.citrix.com
+    icon: https://raw.githubusercontent.com/citrix/citrix-helm-charts/gh-pages/icon.png
+    kubeVersion: '>=v1.16.0-0'
+    maintainers:
+    - email: dhiraj.gedam@citrix.com
+      name: dheerajng
+    - email: subash.dangol@citrix.com
+      name: subashd
+    name: citrix-cpx-istio-sidecar-injector
+    sources:
+    - https://github.com/citrix/citrix-xds-adaptor
+    urls:
+    - assets/citrix-cpx-istio-sidecar-injector/citrix-cpx-istio-sidecar-injector-1.11.1.tgz
+    version: 1.11.1
   citrix-cpx-with-ingress-controller:
   - annotations:
       catalog.cattle.io/certified: partner
