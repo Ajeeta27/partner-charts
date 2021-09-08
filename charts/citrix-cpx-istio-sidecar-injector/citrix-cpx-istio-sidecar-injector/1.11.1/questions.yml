@@ -95,7 +95,7 @@ questions:
   show_if: "xDSAdaptor.secureConnect=false"
   group: "istio-pilot Settings"
 - variable: istioPilot.SAN
-  required: true
+  required: false
   type: string
   default: 
   label: istio-pilot SAN
