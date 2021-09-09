@@ -1,0 +1,31 @@
+--- charts-original/values.yaml
++++ charts/values.yaml
+@@ -37,7 +37,7 @@
+     trustDomain: cluster.local
+     certTTLinHours: 720
+     clusterId: Kubernetes
+-    jwtPolicy: #specify third-party-jwt if Kubernetes cluster supports third-party tokens. Default from K8s v1.21
++    jwtPolicy: first-party-jwt #specify third-party-jwt if Kubernetes cluster supports third-party tokens
+ 
+ ingressGateway:
+     netscalerUrl: null 
+@@ -50,10 +50,19 @@
+     httpsNodePort: 31443
+     nodePortRequired: false
+     lightWeightCPX: 1 
++    exposeMutipleApps: false 
+     secretVolumes:
++        name:
++        secretName:
++        mountPath:
+     #licenseServerIP: this value will be taken from ADMSettings.ADMIP
+     label: citrix-ingressgateway
++    exposeNonHttpService: false
+     tcpPort:
++        name:
++        nodePort:
++        port:
++        targetPort:
+     vserverIP: nsip
+     adcServerName:
+     netProfile:
