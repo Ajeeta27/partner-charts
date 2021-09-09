@@ -1,3 +1,7 @@
+annotations:
+  catalog.cattle.io/certified: partner
+  catalog.cattle.io/display-name: citrix-adc-istio-ingress-gateway
+  catalog.cattle.io/release-name: citrix-adc-istio-ingress-gateway
 apiVersion: v2
 appVersion: 1.11.0
 description: A Helm chart for Citrix ADC as Ingress Gateway installation in Istio
@@ -14,7 +18,3 @@ name: citrix-adc-istio-ingress-gateway
 sources:
 - https://github.com/citrix/citrix-xds-adaptor
 version: 1.11.0
-annotations:
-  catalog.cattle.io/certified: partner
-  catalog.cattle.io/release-name: citrix-adc-istio-ingress-gateway
-  catalog.cattle.io/display-name: citrix-adc-istio-ingress-gateway
