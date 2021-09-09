@@ -15,4 +15,4 @@ The following prerequisites are required for deploying Citrix ADC as an Ingress 
 ) to deploy Citrix ADC as an ingress gateway for application.
 - For deploying Citrix ADC VPX or MPX as ingress gateway, you should establish the connectivity between Citrix ADC VPX or MPX and cluster nodes. This connectivity can be established by configuring routes on Citrix ADC as mentioned [here](https://github.com/citrix/citrix-k8s-ingress-controller/blob/master/docs/network/staticrouting.md) or by deploying [Citrix Node Controller](https://github.com/citrix/citrix-k8s-node-controller).
 
-This catalog deploys Citrix ADC VPX, MPX, or CPX as an Ingress Gateway in the Istio service mesh. For detailed information on various deployment options,checkout this [link](https://github.com/citrix/citrix-istio-adaptor).
+This catalog deploys Citrix ADC VPX, MPX, or CPX as an Ingress Gateway in the Istio service mesh. For detailed information on various deployment options,checkout this [link](https://github.com/citrix/citrix-istio-adaptor) ajeeta.
