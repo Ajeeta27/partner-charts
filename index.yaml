@@ -293,6 +293,32 @@ entries:
   citrix-adc-istio-ingress-gateway:
   - annotations:
       catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: citrix-adc-istio-ingress-gateway
+      catalog.cattle.io/release-name: citrix-adc-istio-ingress-gateway
+    apiVersion: v2
+    appVersion: 1.11.0
+    created: "2021-09-09T13:30:53.706105629+05:30"
+    description: A Helm chart for Citrix ADC as Ingress Gateway installation in Istio
+      Service Mesh on Kubernetes platform
+    digest: c1bdc01f655a097d4d4ad82b30ab7e0a5644a0d7fee4663c87fab3827d651422
+    home: https://www.citrix.com
+    icon: https://raw.githubusercontent.com/citrix/citrix-helm-charts/gh-pages/icon.png
+    kubeVersion: '>=v1.16.0-0'
+    maintainers:
+    - email: dhiraj.gedam@citrix.com
+      name: dheerajng
+    - email: subash.dangol@citrix.com
+      name: subashd
+    - email: ajeeta.shakeet@citrix.com
+      name: ajeetas
+    name: citrix-adc-istio-ingress-gateway
+    sources:
+    - https://github.com/citrix/citrix-xds-adaptor
+    urls:
+    - assets/citrix-adc-istio-ingress-gateway/citrix-adc-istio-ingress-gateway-1.11.1.tgz
+    version: 1.11.1
+  - annotations:
+      catalog.cattle.io/certified: partner
       catalog.cattle.io/release-name: citrix-adc-istio-ingress-gateway
     apiVersion: v1
     appVersion: 1.2.1
